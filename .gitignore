@@ -53,3 +53,21 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Local Python and Zephyr workspace
+.venv/
+.west/
+bootloader/
+deps/
+modules/
+tools/zephyr/
+tools/zephyr-sdk/
+
+# Zephyr build and generated outputs
+build/
+build-*/
+twister-out/
+zephyr-env.cmd
+
+# Local spike evidence that may contain machine-specific paths
+artifacts/spike/local/
